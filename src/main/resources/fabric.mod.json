@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "gooderrails",
+  "version": "${version}",
+  "name": "gooderrails",
+  "description": "Port of the rail placement feature in 2No2Name's MendedMinecarts to server-side environments.",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Vonr/gooderrails"
+  },
+  "license": "MIT",
+  "icon": "assets/gooderrails/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "dev.qther.gooderrails.GooderRails"
+    ]
+  },
+  "mixins": [
+    "gooderrails.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*"
+  }
+}

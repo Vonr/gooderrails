@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.qther.gooderrails.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "AbstractRailBlockMixin",
+    "DetectorRailBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
