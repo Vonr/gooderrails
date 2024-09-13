@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "icon": "assets/gooderrails/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "client": [
     ],
@@ -22,6 +22,7 @@
     "gooderrails.mixins.json"
   ],
   "depends": {
-    "fabricloader": "*"
+    "fabricloader": "*",
+    "fabric": "*"
   }
 }

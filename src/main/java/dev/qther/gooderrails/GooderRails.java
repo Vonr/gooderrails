@@ -1,6 +1,5 @@
 package dev.qther.gooderrails;
 
-import dev.qther.gooderrails.client.GooderrailsClient;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
